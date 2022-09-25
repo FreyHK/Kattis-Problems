@@ -26,5 +26,6 @@ class NinetyNineProblems {
             System.out.println(out);
             //System.out.println("num: " + a + " low: " + low + " high: " + high + " out: " + out);
         }
+        sc.close();
     }
 }

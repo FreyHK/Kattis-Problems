@@ -20,5 +20,6 @@ class Aaah {
                 System.out.println("go");
             }
         }
+        sc.close();
     }
 }

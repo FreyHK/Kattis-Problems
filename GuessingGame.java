@@ -46,5 +46,6 @@ class GuessingGame {
                 guess = -1;
             }
         }
+        sc.close();
     }
 }

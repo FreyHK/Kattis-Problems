@@ -13,12 +13,7 @@ class TwoThousandFortyEight {
 
         while (sc.hasNextLine()) {
             
-            int[][] board = {
-                { 0, 0, 0, 0 },
-                { 0, 0, 0, 0 },
-                { 0, 0, 0, 0 },
-                { 0, 0, 0, 0 }
-            };
+            int[][] board = new int[4][4];
 
             //Load input
             for (int i = 0; i < 4; i++) {
@@ -40,8 +35,7 @@ class TwoThousandFortyEight {
                 }
                 System.out.println(s);
             }
-
-
         }
+        sc.close();
     }
 }
