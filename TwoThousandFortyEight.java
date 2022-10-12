@@ -1,5 +1,5 @@
 /*
- * 22/09/2022
+ * 27/09/2022
  * Frey Husted
  * 
  * https://open.kattis.com/problems/2048
@@ -22,6 +22,7 @@ class TwoThousandFortyEight {
                     //System.out.println("reading: " + board[i][j] + " at (" + i + ", " + j + ")");
                 }
             }
+            //0, 1, 2, 3 - left, up, right, down
             int move = sc.nextInt();
             
             
@@ -37,5 +38,13 @@ class TwoThousandFortyEight {
             }
         }
         sc.close();
+    }
+
+    boolean isInsideBoard(int x, int y) {
+        return x >= 0 && x <= 4 && y >= 0 && x <= 4;
+    }
+
+    void pushCell(int ix, int iy, int jx, int jy) {
+
     }
 }
